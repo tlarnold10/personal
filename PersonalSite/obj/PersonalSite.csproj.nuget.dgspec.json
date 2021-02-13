@@ -42,6 +42,14 @@
             "GraphQL.Server.Transports.AspNetCore": {
               "target": "Package",
               "version": "[3.1.0-alpha0027, )"
+            },
+            "GraphQl": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "GraphQl.AspNet": {
+              "target": "Package",
+              "version": "[0.5.2-beta, )"
             }
           },
           "imports": [

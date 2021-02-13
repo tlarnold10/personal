@@ -1,7 +1,9 @@
 using GraphQL;
 using GraphQL.Types;
 
-public class AuthorType : ObjectGraphType<Project>
+namespace PersonalSite.Models
+{
+    public class AuthorType : ObjectGraphType<Project>
     {
         public AuthorType()
         {
@@ -13,3 +15,4 @@ public class AuthorType : ObjectGraphType<Project>
             Field(x => x.GitHubLink);
         }
     }
+}
