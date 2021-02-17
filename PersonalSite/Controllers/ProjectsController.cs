@@ -1,5 +1,6 @@
 using GraphQL.AspNet.Controllers;
 using GraphQL.AspNet.Attributes;
+using PersonalSite.Models;
 
 namespace PersonalSite
 {

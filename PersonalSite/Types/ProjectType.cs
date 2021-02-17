@@ -1,11 +1,12 @@
 using GraphQL;
 using GraphQL.Types;
+using PersonalSite.Models;
 
-namespace PersonalSite.Models
+namespace PersonalSite.Types
 {
-    public class AuthorType : ObjectGraphType<Project>
+    public class ProjectType : ObjectGraphType<Project>
     {
-        public AuthorType()
+        public ProjectType()
         {
             Field(x => x.Id);
             Field(x => x.ProjectName);

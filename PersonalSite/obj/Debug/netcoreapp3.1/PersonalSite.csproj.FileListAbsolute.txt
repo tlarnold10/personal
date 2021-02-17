@@ -50,3 +50,14 @@
 /home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/System.Reactive.dll
 /home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/System.Reactive.xml
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/GraphiQL.dll
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.dll
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/System.Web.Mvc.dll
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/System.Web.Razor.dll
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/System.Web.Helpers.dll
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/System.Web.WebPages.Deployment.dll
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/System.Web.WebPages.Razor.dll
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/System.Web.WebPages.dll
+/home/arnold/Documents/programming/personal/PersonalSite/bin/Debug/netcoreapp3.1/Microsoft.Web.Infrastructure.dll

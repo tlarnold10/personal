@@ -9,6 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using GraphQL.AspNet.Configuration.Mvc;
+using GraphiQl;
+using PersonalSite.Models;
+using PersonalSite.Types;
+using PersonalSite.Controllers;
 
 namespace PersonalSite
 {
@@ -26,6 +30,7 @@ namespace PersonalSite
         {
             services.AddControllersWithViews();
             services.AddGraphQL();
+            services.AddScoped<ProjectType>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,7 +60,7 @@ namespace PersonalSite
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            app.UseGraphQL();
+            app.UseGraphiQl("/graphql");
         }
     }
 }
