@@ -1,23 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using GraphQL.AspNet.Controllers;
 using GraphQL.AspNet.Attributes;
 using PersonalSite.Models;
 
-namespace PersonalSite
+namespace PersonalSite.Controllers
 {
-    public class ProjectsController : GraphController
+    public class ProjectsController : Controller
     {
-        [QueryRoot("project")]
-        public Project Project(int id)
+        private readonly ProjectsDbContext _context;
+
+        public ProjectsController(ProjectsDbContext context)
         {
-            return new Project()
-            {
-                Id = id,
-                ProjectName = "Goal Tracker",
-                Description = "Keeps track of my goals",
-                TechStack = "Python, Django, React, GraphQl",
-                YearBuilt = 2020,
-                GitHubLink = "https://github.com/tlarnold10/goals",
-            };
+            _context = context;
+        }
+
+        public IEnumerable<Project> GetAll()
+        {
+            return _context.Projects;
         }
     }
 }

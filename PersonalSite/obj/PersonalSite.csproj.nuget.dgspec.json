@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TrevorArnold\\Documents\\programming\\personal\\PersonalSite\\PersonalSite.csproj": {}
+    "/mnt/d/trevor/programming/personalWebsite/PersonalSite/PersonalSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TrevorArnold\\Documents\\programming\\personal\\PersonalSite\\PersonalSite.csproj": {
+    "/mnt/d/trevor/programming/personalWebsite/PersonalSite/PersonalSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TrevorArnold\\Documents\\programming\\personal\\PersonalSite\\PersonalSite.csproj",
+        "projectUniqueName": "/mnt/d/trevor/programming/personalWebsite/PersonalSite/PersonalSite.csproj",
         "projectName": "PersonalSite",
-        "projectPath": "C:\\Users\\TrevorArnold\\Documents\\programming\\personal\\PersonalSite\\PersonalSite.csproj",
-        "packagesPath": "C:\\Users\\TrevorArnold\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TrevorArnold\\Documents\\programming\\personal\\PersonalSite\\obj\\",
+        "projectPath": "/mnt/d/trevor/programming/personalWebsite/PersonalSite/PersonalSite.csproj",
+        "packagesPath": "/home/tlarnold10/.nuget/packages/",
+        "outputPath": "/mnt/d/trevor/programming/personalWebsite/PersonalSite/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\TrevorArnold\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/tlarnold10/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }
