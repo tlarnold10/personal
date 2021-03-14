@@ -1,9 +1,10 @@
 import React from 'react';
+import './App.css';
 
 function Footer() {
   return (
     <div>
-      <h4>Arnold Technologies</h4>
+      <h4 className = "Footer-text">Arnold Technologies</h4>
     </div>
   );
 }
