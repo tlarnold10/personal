@@ -12,6 +12,11 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <Nav />
+      <div className="uk-height-large uk-background-cover uk-light uk-flex" 
+              uk-parallax="bgy: -200" 
+              style = {{ backgroundImage: "url('./image.jpg')" }}>
+        <h1 className="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Let's Do It</h1>
+      </div>
       <div className="uk-container">
       <div className="uk-child-width-1-3@s uk-grid-match uk-grid">
         <div className="uk-container uk-container-small" style={{ padding: "10px" }}>

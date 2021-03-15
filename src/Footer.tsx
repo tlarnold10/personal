@@ -3,7 +3,7 @@ import './App.css';
 
 function Footer() {
   return (
-    <div>
+    <div className = "Footer-main">
       <h4 className = "Footer-text">Arnold Technologies</h4>
     </div>
   );
