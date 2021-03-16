@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter, Route, Switch, Router,} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Nav from './Nav';
+import Home from './Pages/Home';
+import Experience from './Pages/Experience';
+import About from './Pages/About';
+import Projects from './Pages/Projects';
+import Business from './Pages/Business';
 import Footer from './Footer';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
@@ -11,34 +17,16 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
+    <BrowserRouter>
       <Nav />
-      <div className="uk-height-large uk-background-cover uk-light uk-flex" 
-              uk-parallax="bgy: -200" 
-              style = {{ backgroundImage: "url('./image.jpg')" }}>
-        <h1 className="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Let's Do It</h1>
-      </div>
-      <div className="uk-container">
-      <div className="uk-child-width-1-3@s uk-grid-match uk-grid">
-        <div className="uk-container uk-container-small" style={{ padding: "10px" }}>
-        <div className="uk-card uk-card-primary uk-card-body uk-card-hover">
-          <h3 className="uk-card-title">My Business</h3>
-          <p>We get shit done.</p>
-        </div>
-        </div>
-        <div className="uk-container uk-container-small" style={{ padding: "10px" }}>
-          <div className="uk-card uk-card-primary uk-card-body uk-card-hover">
-            <h3 className="uk-card-title">Experience</h3>
-            <p>Syd is the best baby in the entire world</p>
-          </div>
-        </div>
-        <div className="uk-container uk-container-small" style={{ padding: "10px" }}>
-          <div className="uk-card uk-card-primary uk-card-body uk-card-hover">
-            <h3 className="uk-card-title">Projects</h3>
-            <p>Kendra is the bestest wife there ever was!</p>
-          </div>
-        </div>
-      </div>
-      </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/experience" component={Experience} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/business" component={Business} />
+      </Switch>
+      </BrowserRouter>
       <Footer />
     </Provider>
   </React.StrictMode>,

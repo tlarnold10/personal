@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Link, NavLink, } from 'react-router-dom';
 
 function Nav() {
   return (
@@ -8,11 +9,11 @@ function Nav() {
             <li><img style={{ padding: "5px" }} 
                       src="./ArnoldTechnologies_logo.jpg" 
                       width="90" alt="arnold-tech-logo" uk-img/></li>
-            <li className="uk-active"><a href="" style={{ paddingBottom: "20px" }}>Home</a></li>
-            <li><a href="" style={{ paddingBottom: "20px" }}>About</a></li>
-            <li><a href="" style={{ paddingBottom: "20px" }}>Experience</a></li>
-            <li><a href="" style={{ paddingBottom: "20px" }}>Projects</a></li>
-            <li><a href="" style={{ paddingBottom: "20px" }}>Arnold Technologies</a></li>
+            <li><Link to="/" style={{ paddingBottom: "20px" }}>Home</Link></li>
+            <li><Link to="/about" style={{ paddingBottom: "20px" }}>About</Link></li>
+            <li><Link to="/experience" style={{ paddingBottom: "20px" }}>Experience</Link></li>
+            <li><Link to="/projects" style={{ paddingBottom: "20px" }}>Projects</Link></li>
+            <li><Link to="/business" style={{ paddingBottom: "20px" }}>Arnold Technologies</Link></li>
         </ul>
     </nav>
     </div>
