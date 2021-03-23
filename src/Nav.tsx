@@ -7,7 +7,7 @@ function Nav() {
     <nav className="uk-navbar">
         <ul className="uk-navbar-nav">
             <li><img style={{ padding: "5px" }} 
-                      src="./ArnoldTechnologies_logo.jpg" 
+                      src="./ArnoldTechnologies_logo_only_new.jpg" 
                       width="90" alt="arnold-tech-logo" uk-img/></li>
             <li><Link to="/" style={{ paddingBottom: "20px" }}>Home</Link></li>
             <li><Link to="/about" style={{ paddingBottom: "20px" }}>About</Link></li>
