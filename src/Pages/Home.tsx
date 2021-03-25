@@ -24,29 +24,29 @@ function Home() {
               <br></br>
               <div className="uk-container">
               <div className="uk-child-width-1-3@s uk-grid-match uk-grid">
-                <div className="uk-container uk-container-small" style={{ padding: "10px" }}>
-                <div className="uk-card uk-card-primary uk-card-body uk-card-hover">
+                <div className="uk-container uk-container-small" style={{ padding: "10px"}}>
+                <div className="uk-card uk-card-primary uk-card-body uk-card-hover" style={{ backgroundColor: "#5A5EAE" }}>
                   <h3 className="uk-card-title">Arnold Technologies</h3>
                   <p>
                     Technology strategy is what gets me excited and how I can help. 
                     Whether you want to build new software or need assistance picking out
                     enterprise software, I want to help. 
                   </p>
-                  <button className="uk-button uk-button-primary">Business</button>
+                  <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>Business</button>
                 </div>
                 </div>
                 <div className="uk-container uk-container-small" style={{ padding: "10px" }}>
-                  <div className="uk-card uk-card-primary uk-card-body uk-card-hover">
+                  <div className="uk-card uk-card-primary uk-card-body uk-card-hover Arnold-box" style={{ backgroundColor: "#5A5EAE" }}>
                     <h3 className="uk-card-title">Professional Experience</h3>
                     <p>Syd is the best baby in the entire world</p>
-                    <button className="uk-button uk-button-primary">Experience</button>
+                    <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>Experience</button>
                   </div>
                 </div>
                 <div className="uk-container uk-container-small" style={{ padding: "10px" }}>
-                  <div className="uk-card uk-card-primary uk-card-body uk-card-hover">
+                  <div className="uk-card uk-card-primary uk-card-body uk-card-hover" style={{ backgroundColor: "#5A5EAE" }}>
                     <h3 className="uk-card-title">Fun Projects</h3>
                     <p>Kendra is the bestest wife there ever was!</p>
-                    <button className="uk-button uk-button-primary">Projects</button>
+                    <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>Projects</button>
                   </div>
                 </div>
               </div>
@@ -72,7 +72,7 @@ function Home() {
                 </p>
                 <a href="./TrevorArnold_Resume.docx">
                   <button 
-                    style = {{ marginLeft: "45%", width: "125px" }}
+                    style = {{ marginLeft: "45%", width: "125px", backgroundColor: "#5A5EAE" }}
                     className="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">Resume</button>
                 </a>
               </div>

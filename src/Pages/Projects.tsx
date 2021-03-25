@@ -2,8 +2,15 @@ import React from 'react';
 
 function Projects() {
     return (
+        <div>
         <div className="uk-container">
-            <p>This is going to be a page all the various projects that I have worked on.</p>
+            <h2>Projects</h2>
+            <p>Been working on many different side projects in my spare time, usually when the baby is sleeping.
+                All of these can be found on my <a href="https://github.com/tlarnold10">Github repository.</a></p> 
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
         </div>
     );
 }
