@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
         <div>
         <div className="uk-height-large uk-background-cover uk-light uk-flex" 
-                      uk-parallax="bgy: -300"
-                      style = {{ backgroundImage: "url('./image.jpg')", height: "550px" }}>
+                      uk-parallax="bgy: -400"
+                      style = {{ backgroundImage: "url('./image.jpg')", height: "600px" }}>
                 <h1 className="uk-width-1-1@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Let's Get To It</h1>
               </div>
               <br></br>
@@ -32,21 +33,24 @@ function Home() {
                     Whether you want to build new software or need assistance picking out
                     enterprise software, I want to help. 
                   </p>
-                  <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>Business</button>
+                  <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>
+                      <Link to="/business">Business</Link></button>
                 </div>
                 </div>
                 <div className="uk-container uk-container-small" style={{ padding: "10px" }}>
                   <div className="uk-card uk-card-primary uk-card-body uk-card-hover Arnold-box" style={{ backgroundColor: "#5A5EAE" }}>
                     <h3 className="uk-card-title">Professional Experience</h3>
                     <p>Syd is the best baby in the entire world</p>
-                    <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>Experience</button>
+                    <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>
+                      <Link to="/experience">Experience</Link></button>
                   </div>
                 </div>
                 <div className="uk-container uk-container-small" style={{ padding: "10px" }}>
                   <div className="uk-card uk-card-primary uk-card-body uk-card-hover" style={{ backgroundColor: "#5A5EAE" }}>
                     <h3 className="uk-card-title">Fun Projects</h3>
                     <p>Kendra is the bestest wife there ever was!</p>
-                    <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>Projects</button>
+                    <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>
+                      <Link to="/projects">Projects</Link></button>
                   </div>
                 </div>
               </div>
@@ -79,6 +83,10 @@ function Home() {
               </div>
               <br></br>
               <br></br>
+              <br></br>
+              <div className="uk-height-medium uk-background-cover uk-light uk-flex"
+                      style = {{ backgroundImage: "url('./Photos/IMG_11081.jpg')", height: "20x" }}>
+              </div>
               <br></br>
         </div>
     );

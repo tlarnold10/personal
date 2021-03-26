@@ -3,8 +3,13 @@ import React from 'react';
 function Experience() {
     return (
         <div>
+        <div className="uk-height-large uk-background-cover uk-light uk-flex" 
+                      uk-parallax="bgy: -400"
+                      style = {{ backgroundImage: "url('./ocean.jpg')", height: "350px" }}>
+                <h1 className="uk-width-1-1@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Experience</h1>
+              </div>
         <div className="uk-container">
-            <h2>Experience</h2>
+            <br></br>
             <p>I've done some shit, even at a young age.</p>
             <ul className="uk-list uk-list-striped">
                 <li>
