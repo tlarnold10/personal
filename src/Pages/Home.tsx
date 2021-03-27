@@ -33,24 +33,24 @@ function Home() {
                     Whether you want to build new software or need assistance picking out
                     enterprise software, I want to help. 
                   </p>
-                  <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>
-                      <Link to="/business">Business</Link></button>
+                  <Link to="/business"><button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7", color: "#000000" }}>
+                      Business</button></Link>
                 </div>
                 </div>
                 <div className="uk-container uk-container-small" style={{ padding: "10px" }}>
                   <div className="uk-card uk-card-primary uk-card-body uk-card-hover Arnold-box" style={{ backgroundColor: "#5A5EAE" }}>
                     <h3 className="uk-card-title">Professional Experience</h3>
-                    <p>Syd is the best baby in the entire world</p>
-                    <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>
-                      <Link to="/experience">Experience</Link></button>
+                    <p>I've seen some things, both good and bad. At the end of the day, these experiences make me who I am.</p>
+                    <Link to="/experience"><button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7", color: "#000000" }}>
+                      Experience</button></Link>
                   </div>
                 </div>
                 <div className="uk-container uk-container-small" style={{ padding: "10px" }}>
                   <div className="uk-card uk-card-primary uk-card-body uk-card-hover" style={{ backgroundColor: "#5A5EAE" }}>
                     <h3 className="uk-card-title">Fun Projects</h3>
-                    <p>Kendra is the bestest wife there ever was!</p>
-                    <button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7"}}>
-                      <Link to="/projects">Projects</Link></button>
+                    <p>Built a couple of projects. You should totally check them out.</p>
+                    <Link to="/projects"><button className="uk-button uk-button-primary" style={{ backgroundColor: "#D7D7D7", color: "#000000" }}>
+                      Projects</button></Link>
                   </div>
                 </div>
               </div>
