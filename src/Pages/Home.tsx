@@ -19,22 +19,28 @@ function Home() {
                   the right place. Take a look around! Whether you are looking to bring me on as an employee or work with 
                   Arnold Technologies LLC, you can learn more about my experiences and what makes me, me. 
                 </p>
-              </div>
+              <br></br>
+              <br></br>
+              <hr className="uk-divider-icon"></hr>
               <br></br>
               <br></br>
               <div className="uk-container">
+                <h2 style={{ "textAlign": "center" }}>Technical Knowledge</h2>
+              </div>
+              <br></br>
+              <div className="uk-container">
                 <div className="uk-column-2-4 uk-column-divider">
-                  <img src="./Photos/react.png" style= {{ "width": "300px", "padding": "15px" }}></img>
-                  <img src="./Photos/sql.png" style= {{ "width": "300px", "padding": "15px" }}></img>
-                  <img src="./Photos/typescript.png" style= {{ "width": "300px", "padding": "15px" }}></img>
-                  <img src="./Photos/python-logo-master-v3-TM.png" style= {{ "width": "300px", "padding": "15px" }}></img>
+                  <img src="./Photos/python-logo-master-v3-TM.png" style= {{ "width": "225px", "padding": "15px" }}></img>
+                  <img src="./Photos/react.png" style= {{ "width": "225px", "padding": "15px" }}></img>
+                  <img src="./Photos/sql.png" style= {{ "width": "225px", "padding": "15px" }}></img>
+                  <img src="./Photos/javascript.png" style= {{ "width": "225px", "padding": "15px" }}></img>
+                  <img src="./Photos/typescript.png" style= {{ "width": "225px", "padding": "15px" }}></img>
                 </div>
               </div>
               <br></br>
               <br></br>
               <hr className="uk-divider-icon"></hr>
               <br></br>
-              <div className="uk-container">
               <div className="uk-child-width-1-3@s uk-grid-match uk-grid">
                 <div className="uk-container uk-container-small" style={{ padding: "10px"}}>
                 <div className="uk-card uk-card-primary uk-card-body uk-card-hover" style={{ backgroundColor: "#5A5EAE" }}>
@@ -66,9 +72,7 @@ function Home() {
                 </div>
               </div>
               <br></br>
-              <hr className="uk-divider-icon"></hr>
               <br></br>
-              <div className="uk-container">
               <h2 style={{ "textAlign": "center" }}>Values</h2>
                 <p style={{ "textAlign": "center" }}>
                   My values are pretty strait forward: <b>Faith</b>, <b>Family</b>, <b>Work</b>. I would not be where I am without 
@@ -77,7 +81,7 @@ function Home() {
                   by my side. Finally, I enjoy getting things done and working. I believe I was placed on this planet for a reason, 
                   which is why I believe in the work I do and the value I provide. 
                 </p>
-              </div><hr className="uk-divider-icon"></hr>
+              <hr className="uk-divider-icon"></hr>
               <br></br>
               <br></br>
               <div className="uk-container">

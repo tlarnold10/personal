@@ -13,7 +13,7 @@ function About() {
             <p>Currently live in Lester, IA.</p>
             <br></br>
             <h2>Contact</h2>
-            <p>Email: trevor.arnold@arnoldtec</p>
+            Emal: <a href="mailto: trevor.arnold@arnoldtec.com">trevor.arnold@arnoldtec.com</a>
         </div>
         <br></br>
         <br></br>
