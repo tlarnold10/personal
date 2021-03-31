@@ -11,6 +11,9 @@ function About() {
         <div className="uk-container">
             <br></br>
             <p>Currently live in Lester, IA.</p>
+            <br></br>
+            <h2>Contact</h2>
+            <p>Email: trevor.arnold@arnoldtec</p>
         </div>
         <br></br>
         <br></br>

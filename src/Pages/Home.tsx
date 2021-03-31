@@ -21,6 +21,17 @@ function Home() {
                 </p>
               </div>
               <br></br>
+              <br></br>
+              <div className="uk-container">
+                <div className="uk-column-2-4 uk-column-divider">
+                  <img src="./Photos/react.png" style= {{ "width": "300px", "padding": "15px" }}></img>
+                  <img src="./Photos/sql.png" style= {{ "width": "300px", "padding": "15px" }}></img>
+                  <img src="./Photos/typescript.png" style= {{ "width": "300px", "padding": "15px" }}></img>
+                  <img src="./Photos/python-logo-master-v3-TM.png" style= {{ "width": "300px", "padding": "15px" }}></img>
+                </div>
+              </div>
+              <br></br>
+              <br></br>
               <hr className="uk-divider-icon"></hr>
               <br></br>
               <div className="uk-container">
