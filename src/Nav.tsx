@@ -14,6 +14,7 @@ function Nav() {
             <li><Link to="/experience" style={{ paddingBottom: "20px" }}>Experience</Link></li>
             <li><Link to="/projects" style={{ paddingBottom: "20px" }}>Projects</Link></li>
             <li><Link to="/business" style={{ paddingBottom: "20px" }}>Arnold Technologies</Link></li>
+            <li><Link to="/blog" style={{ paddingBottom: "20px" }}>Blog</Link></li>
         </ul>
     </nav>
     </div>
