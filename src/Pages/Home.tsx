@@ -89,7 +89,7 @@ function Home() {
                 <p style={{ "textAlign": "center" }}>
                   Just looking for my resume, that's fine. Feel free to download:
                 </p>
-                <a href="./TrevorArnold_Resume.docx">
+                <a href="./TrevorArnold_Resume.pdf">
                   <button 
                     style = {{ marginLeft: "45%", width: "125px", backgroundColor: "#5A5EAE" }}
                     className="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">Resume</button>

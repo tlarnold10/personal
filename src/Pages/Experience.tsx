@@ -6,7 +6,7 @@ function Experience() {
         <div className="uk-height-large uk-background-cover uk-light uk-flex" 
                       uk-parallax="bgy: -400"
                       style = {{ backgroundImage: "url('./ocean.jpg')", height: "350px" }}>
-                <h1 className="uk-width-1-1@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Experience</h1>
+                <h1 className="uk-width-1-1@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Professional Experience</h1>
               </div>
         <div className="uk-container">
             <br></br>
@@ -23,7 +23,7 @@ function Experience() {
                     Start MBA program at University of South Dakota.
                 </li>
                 <li>
-                    Data conversion at Zuercher Technologies in Sioux Falls.
+                    Data conversion engineer at Zuercher Technologies in Sioux Falls.
                 </li>
                 <li>
                     Zuercher Technologies becomes CentralSquare Technologies.
@@ -39,6 +39,9 @@ function Experience() {
                 </li>
                 <li>
                     Starting up Arnold Technologies.
+                </li>
+                <li>
+                    Software engineering manager at CentralSquare Technologies.
                 </li>
             </ul>
         </div>

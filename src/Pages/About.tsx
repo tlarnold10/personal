@@ -10,10 +10,16 @@ function About() {
         </div>
         <div className="uk-container">
             <br></br>
-            <p>Currently live in Lester, IA.</p>
-            <br></br>
-            <h2>Contact</h2>
-            Emal: <a href="mailto: trevor.arnold@arnoldtec.com">trevor.arnold@arnoldtec.com</a>
+            <p>Currently live in Lester, IA with two beautiful girls, my wife, and dog. </p>
+            <h2>Connect</h2>
+            <ul className="uk-list uk-list-striped">
+                <li>
+                    <b>Email:</b> <a href="mailto: trevor.arnold@arnoldtec.com">trevor.arnold@arnoldtec.com</a>
+                </li>
+                <li>
+                    <b>LinkedIn:</b> <a href='https://www.linkedin.com/in/trevorarnold/' target='_blank'>Trevor Arnold LinkedIn</a>
+                </li>
+            </ul> 
         </div>
         <br></br>
         <br></br>
