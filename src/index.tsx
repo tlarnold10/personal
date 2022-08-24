@@ -12,6 +12,7 @@ import Experience from './Pages/Experience';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Business from './Pages/Business';
+import Ideas from './Pages/Ideas';
 import Footer from './Footer';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
@@ -28,6 +29,7 @@ ReactDOM.render(
         <Route exact path="/experience" component={Experience} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/business" component={Business} />
+        <Route exact path="/ideas" component={Ideas} />
       </Switch>
       </BrowserRouter>
       <Footer />

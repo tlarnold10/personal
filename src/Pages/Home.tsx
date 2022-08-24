@@ -27,14 +27,36 @@ function Home() {
               <div className="uk-container">
                 <h2 style={{ "textAlign": "center" }}>Technical Knowledge</h2>
               </div>
-              <br></br>
+              <div className="uk-card uk-card-default uk-card-body uk-width-1-1@m">
+                <h3 className="uk-card-title">Languages and Frameworks</h3>
+                <p>
+                  Below are some of the languages and frameworks I have the most experience with. 
+                  Most of which I have used for personal projects as well as professional experience with. 
+                </p>
+              </div>
               <div className="uk-container">
                 <div className="uk-column-2-4 uk-column-divider">
                   <img src="./Photos/python-logo-master-v3-TM.png" style= {{ "width": "225px", "padding": "15px" }}></img>
                   <img src="./Photos/react.png" style= {{ "width": "225px", "padding": "15px" }}></img>
-                  <img src="./Photos/sql.png" style= {{ "width": "225px", "padding": "15px" }}></img>
-                  <img src="./Photos/javascript.png" style= {{ "width": "225px", "padding": "15px" }}></img>
                   <img src="./Photos/typescript.png" style= {{ "width": "225px", "padding": "15px" }}></img>
+                  <img src="./Photos/angular.png" style= {{ "width": "225px", "padding": "15px" }}></img>
+                  <img src="./Photos/c-sharp-c-logo-02F17714BA-seeklogo.com.png" style= {{ "width": "225px", "padding": "15px" }}></img>
+                </div>
+              </div>
+              <br></br>
+              <br></br>
+              <br></br>
+              <div className="uk-card uk-card-default uk-card-body uk-width-1-1@m">
+                <h3 className="uk-card-title">Cloud Tools</h3>
+                <p>
+                    Below are the cloud technologies I am familiar with and have used in a professional setting.
+                </p>
+              </div>
+              <div className="uk-container">
+                <div className="uk-column-2-4 uk-column-divider">
+                  <img src="./Photos/vertical-logo-monochromatic.png" style = {{ "width":"225px", "padding":"15px" }}></img>
+                  <img src="./Photos/logo.svg" style = {{ "width":"225px", "padding":"15px" }}></img>
+                  <img src="./Photos/aws.png" style = {{ "width":"225px", "padding":"15px" }}></img>
                 </div>
               </div>
               <br></br>
